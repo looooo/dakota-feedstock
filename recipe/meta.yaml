@@ -47,6 +47,9 @@ requirements:
         - {{ pin_compatible("numpy") }}
         # - trilinos
 test:
+    files:
+        - UQ.in
+        - rosenbrock.py
     requires:
         - perl
     imports:
@@ -56,7 +59,7 @@ test:
         - pysurfpack
     commands:
         - $PREFIX/share/dakota/test/dakota_test.perl --label-regex=AcceptanceTest
-
+        - dakota -i UQ.in
 
 about:
     home: https://dakota.sandia.gov
