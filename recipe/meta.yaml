@@ -33,6 +33,7 @@ requirements:
         - boost-cpp
         - libblas
         - libcblas
+        - liblapack
         - python
         - perl
         - numpy
