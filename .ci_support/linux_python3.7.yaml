@@ -23,9 +23,9 @@ gsl:
 hdf5:
 - 1.10.5
 libblas:
-- 3.8 *openblas
+- 3.8 *netlib
 libcblas:
-- 3.8 *openblas
+- 3.8 *netlib
 numpy:
 - '1.14'
 openmpi:
