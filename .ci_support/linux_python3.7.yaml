@@ -27,7 +27,7 @@ libblas:
 libcblas:
 - 3.8 *openblas
 liblapack:
-- 3.8.0 *nopenblas
+- 3.8.0 *openblas
 numpy:
 - '1.14'
 openmpi:
